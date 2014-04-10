@@ -1,0 +1,54 @@
+{
+	"male" : { "base" : "human", "additional" :
+	[
+		"male_sex",
+		"no_breasts"
+	]
+	},
+
+	"female" : { "base" : "human", "additional" :
+	[
+		"female_sex",
+		"!no_breasts",
+		"no_cock",
+		"no_testes"
+	]
+	},
+
+	"Cassie" : { "base" : "human", "additional" : 
+	[ 
+		"male_sex",
+		"fur",
+		"curvaceous_body",
+		"thick_cock",
+		"furry_sheath",
+		"mutant_bovine_cock_shape",
+		"big_cock",
+		"bovine_testes_type",
+		"big_testes_size",
+		"JJ_cup",
+		"long_nipples",
+		"thick_nipples",
+		"pendulous_breasts",
+		"enormous_butt",
+		"rump",
+		"strong_muscles",
+		"chubby_belly",
+		"udder",
+		"furless_breasts",
+		"three_fingered_hands",
+		"rough_front_limb_end_build",
+		"bovine_hooves",
+		"massive_build",
+		"rosy_skin",
+		"black_white_fur_color",
+		"spotted_fur",
+		"fur",
+		"bovine_tail",
+		"snout",
+		"black_snout_color",
+		"round_facial_features",
+		"soft_facial_features",
+		"high_libido"
+	]}
+}

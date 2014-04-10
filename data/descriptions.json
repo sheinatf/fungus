@@ -1,0 +1,63 @@
+{
+	"appearance" : 
+	{
+		"species.human>=0.8" : ["slightly mutated human"],
+		"species.human>=1" : ["human"],
+		"species.cat>=1" : ["cat"],
+		"*" : ["mutant creature"]
+	},
+
+	"she" : { "male>0.5" : ["he"], "female>0.5" : ["she"], "*" : ["it"] },
+	"She" : { "male>0.5" : ["He"], "female>0.5" : ["She"], "*" : ["It"] },
+	"her" : { "male>0.5" : ["his"], "female>0.5" : ["her"], "*" : ["its"] },
+	"Her" : { "male>0.5" : ["His"], "female>0.5" : ["Her"], "*" : ["Its"] },
+	"hers" : { "male>0.5" : ["his"], "female>0.5" : ["hers"], "*" : ["its"] },
+	"Hers" : { "male>0.5" : ["His"], "female>0.5" : ["Hers"], "*" : ["Its"] },
+
+	"length" : { "length>0.9" : ["tall"], "length>=0.6" : ["medium sized"], "length<0.5" : ["small"] },
+
+	"sex" : {"male_sex" : ["male sex"], "female_sex" : ["female sex"]},
+	"cock_size_sup" : { "short_cock" : ["tiny","small"], "big_cock" : ["massive"] },
+	"cock_shape_compl" : { "mutant_bovine_cock_shape" : ["shares human and bovine traits"] },
+	"sheath" : { "furry_sheath" : ["furry sheath"] },
+	"testes_type" : { "bovine_testes_type" : ["bestial scrotum"], "human_testes_type" : ["human scrotum"] },
+	"testes_size" : { "big_testes_size" : ["of sizeable proportions"]},
+	"hardness" : {"libido>0.5" : ["erected"], "libido<=0.5" : ["flaccid"] },
+
+
+	"eye_color" : {"green_eye_color" : ["green"], "blue_eye_color" : ["blue"], "brown_eye_color" : ["brown"] },
+	"eye_color_shade" : {"green_eye_color" : ["emerald green"], "blue_eye_color" : ["a pale shade of blue"], "brown_eye_color" : ["made of an intense brown color"] },
+	"hair_color" : { "auburn_hair" : ["auburn"], "brown_hair" : ["brown"], "blonde_hair" : ["blonde"] },
+	"hair_type" : { "straight_hair" : ["straight"] },
+	"skin_color" : { "white_skin" : ["white"], "rosy_skin" : ["rosy","pinkish"], "dark_skin" : ["dark"], "black_skin" : ["black"] },
+	"skin_type" : { "fur" : ["fur"], "skin" : ["skin"] },
+	"tail" : { "bovine_tail" : ["cow tail, with a tuft of hair at the tip"], "furry_tail" : ["furry tail"], "no_tail" : ["whithout a tail"] },
+	"hind_limb_end_type" : { "bovine_hooves" : ["black hooves"], "feet" : ["feet"], "hind_paws" : ["paws"] },
+	"hind_limb_end_type_add" : { "bovine_hooves" : ["just like a cow's would"] },
+	"hind_limb_appearance" : { "strong_muscles" : ["beefy"] },
+	"face_type" : { "snout" : ["snout"], "human_face" : ["face"], "muzzle" : ["muzzle"] },
+	"facial_features" : { "soft_facial_features" : ["soft"], "round_facial_features" : ["round"], "angular_facial_features" : ["angular"] },
+	"stance" : { "bipedal" : ["bipedal"], "quadrupedal" : ["quadrupedal"] },
+	"facial_traits_adj" : { "female>0.8" : ["delicate"], "male>0.4" : ["coarse"] },
+	"hair_flow_adj" : { "curly_hair" : ["undulating"], "straight_hair" : ["silky"] },
+
+	"frame_sup" : { "massive_build" : ["massive"], "*" : ["regular"], "slender_build" : ["slender"] },
+	"body_curves" : { "curvaceous_body" : ["curvaceous"] },
+	"fur_color" : { "black_white_fur_color" : ["black and white"] },
+	"femininity" : { "female>0.5" : ["feminine"], "*" : ["androgynous"], "male>0.5" : ["masculine"] },
+	"snout_color" : { "black_snout_color" : ["black"] },
+	"lips_thickness" : { "full_lips" : ["full"] },
+	"mouth_mood" : { "mood>0.5" : ["forming a radiant smile"], "mood<0" : ["shut in a frown"], "*" : ["closed in a mute expression"]},
+	"breast_size_adj" : { "breast_size>0.4" : ["busty"] },
+	"breast_size_sup" : { "breast_size<=0.8" : ["enormous"], "breast_size<=0.4" : ["impressive"], "breast_size<=0.3" : ["generous"], "breast_size<=0.2" : ["round"], "breast_size<=0.1" : ["nearly flat"], "breast_size<=0" : ["flat"] },
+	"breast_cup" : { "A_cup" : ["A-cup"], "B_cup" : ["B-cup"], "C_cup" : ["C-cup"], "D_cup" : ["D-cup"], "JJ_cup" : ["JJ-cup"] },
+	"breast_firmness" : { "pendulous_breasts" : ["pendulous"], "regular_breast_firmness" : ["firm"] },
+	"butt_type" : { "rump" : ["rump"], "human_butt" : ["butt", "ass"] },
+	"butt_size_adj" : { "enormous_butt" : ["enormous"] },
+	"nipples_length" : { "long_nipples" : ["elongated"] },
+	"udder" : { "udder" : ["udder"] },
+	"nipples_thickness" : { "thick_nipples" : ["thick"] },
+	"belly_fat" : { "chubby_belly" : ["chubby"] },
+	"front_limb_end_type" : { "three_fingered_hands" : ["three-fingered hands"], "hands" : ["hands"], "front_paws" : ["paws"] },
+	"front_limb_end_build" : { "rough_front_limb_end_build" : ["rough"], "gracile_front_limb_end_build" : ["gracile"] }
+}

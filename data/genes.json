@@ -1,0 +1,142 @@
+{
+	"sex": {
+		"male_sex": { "mods": {"male":"+0.40"}, "grp": "*"},
+		"female_sex": { "mods": {"female":"+0.40"}, "grp": "*"} },
+	"breast_type": {
+		"no_breasts": { "mods": { "breast_size": "+0", "male": "0.5" }, "grp": "human"},
+		"A_cup": { "mods": { "breast_size": "+0.1", "female": "+0.40" }, "grp": "human"},
+		"B_cup": { "mods": { "breast_size": "+0.2", "female": "+0.40" }, "grp": "human"},
+		"C_cup": { "mods": { "breast_size": "+0.3", "female": "+0.40" }, "grp": "human"},
+		"D_cup": { "mods": { "breast_size": "+0.4", "female": "+0.40" }, "grp": "human"},
+		"JJ_cup": { "mods": { "breast_size": "+0.8", "female": "+0.40" }, "grp": "bovine_mutant"} },
+	"nipples_length": {
+		"regular_nipples_length": { "grp": "*" },
+		"long_nipples": { "mods": { "teatlike": "+0.4" }, "grp": "bovine_mutant" } },
+	"nipples_thickness": {
+		"regular_nipples_thickness": { "grp": "*" },
+		"thick_nipples": { "mods": { "teatlike": "+0.4" }, "grp": "bovine_mutant" } },
+	"breast_firmness": {
+		"regular_breast_firmness": { "grp": "*" },
+		"pendulous_breasts": { "grp": "human" } },
+	"breast_fur": {
+		"regular_breast_fur": { "grp": "*" },
+		"furless_breasts": { "grp": "bovine_mutant"} },
+	"cock_length": {
+		"no_cock": { "grp": "*", "mods": { "cock_size": "+0"} },
+		"short_cock": { "grp": "*", "mods": { "cock_size": "+0.1"} },
+		"normal_cock": { "grp": "*", "mods": { "cock_size": "+0.2"} },
+		"big_cock": { "grp": "*", "mods": { "cock_size": "+0.4"} } },
+	"cock_thickness": {
+		"regular_cock_thickness": { "grp": "*" },
+		"thick_cock": { "grp": "*" } },
+	"cock_shape": {
+		"default_cock_shape": { "grp": "*" },
+		"human_cock_shape": { "grp": "human" },
+		"mutant_bovine_cock_shape": { "grp": "bovine_mutant" },
+		"bovine_cock_shape": { "grp": "bovine" } },
+	"sheath_type": {
+		"no_sheath": { "grp": "*,!felidae,!bovine" },
+		"furry_sheath": { "grp": "felidae,bovine" } },
+	"testes_size": {
+		"no_testes": { "grp": "*", "req": "no_cock", "mods": { "testes_size": "+0"} },
+		"regular_testes_size": { "grp": "*", "mods": { "testes_size": "+0.1"} },
+		"big_testes_size": { "grp": "bovine", "mods": { "testes_size": "+0.4"} } },
+	"testes_type": {
+		"bovine_testes_type": { "grp": "bovine" },
+		"human_testes_type": { "grp": "human" } },
+	"butt_size": {
+		"regular_butt": { "grp": "*" },
+		"enormous_butt": { "grp": "*"} },
+	"butt_type": {
+		"default_butt": { "grp": "*,!human" },
+		"rump": { "grp": "bovine"},
+		"human_butt": { "grp": "human"} },
+	"belly_fat": {
+		"regular_belly": { "grp": "*" },
+		"chubby_belly": { "grp": "human" } },
+	"udder": {
+		"no_udder": { "grp": "*" },
+		"udder": { "grp": "bovine" } },
+	"front_limb_end_type": {
+		"default_front_limb_end": { "grp": "*,!human" },
+		"front_paws": { "grp": "felidae" },
+		"hands": { "grp": "human" },
+		"three_fingered_hands": { "grp": "bovine" } },
+	"front_limb_end_build": {
+		"regular_front_limb_end_build": { "grp": "*" },
+		"rough_front_limb_end_build": { "grp": "human" },
+		"gracile_front_limb_end_build": { "grp": "human" } },
+	"hind_limb_end_type": {
+		"default_hind_limb_end": { "grp": "*" },
+		"hind_paws": { "grp": "felidae" },
+		"feet": { "grp": "human" },
+		"bovine_hooves": { "grp": "bovine" } },
+	"muscles": {
+		"strong_muscles": { "grp": "*", "mods": { "strength": "+2" } },
+		"normal_muscles": { "grp": "*", "mods": { "agility": "+1" } },
+		"weak_muscles": { "grp": "*", "mods": { "agility": "+0" } } },
+	"build": {
+		"massive_build": { "grp": "*", "mods": { "agility": "+0" } },
+		"regular_build": { "grp": "*", "mods": { "agility": "+1" } },
+		"slender_build": { "grp": "*", "mods": {"agility": "+1"} } },
+	"body_curves": {
+		"default_body_curves": { "grp": "*" },
+		"curvaceous_body": { "mods": { "female": "+0.15" }, "grp": "human"} },
+	"length": {
+		"tall_length": { "mods": {"length": "+180"}, "grp": "*" },
+		"medium_sized_length": { "mods": {"length": "+160"}, "grp": "*" },
+		"petite_length": { "mods": {"length": "+140"}, "grp": "*" } },
+	"eye_color": {
+		"green_eye_color": { "grp": "human,felidae" },
+		"blue_eye_color": { "grp": "human,felidae" },
+		"brown_eye_color": { "grp": "*" } },
+	"hair_color": {
+		"brown_hair": { "grp": "human" },
+		"auburn_hair": { "grp": "human" },
+		"blonde_hair": { "grp": "human" } },
+	"hair_type": {
+		"straight_hair": { "grp": "human" },
+		"curly_hair": { "grp": "human" },
+		"no_hair": { "grp": "*,!human" } },
+	"hair_length": {
+		"long_hair_length": { "mods": {"hair_length": "+0.8"}, "grp": "human" },
+		"medium_hair_length": { "mods": {"hair_length": "+0.5"}, "grp": "human" },
+		"short_hair_length": { "mods": {"hair_length": "+0.2"}, "grp": "human" } },
+	"skin_color": {
+		"white_skin": { "mods": {"sknBrght":"+20"}, "grp": "human" },
+		"rosy_skin": { "mods": {"sknBrght":"+21"}, "grp": "human" },
+		"dark_skin": { "mods": {"sknBrght":"+50"}, "grp": "*" },
+		"black_skin": { "mods": {"sknBrght":"+100"}, "grp": "human" } },
+	"skin_type": {
+		"fur": { "grp": "felidae,bovine", "typeReq": "fur_color,fur_type" },
+		"skin": { "grp": "*" } },
+	"fur_type": {
+		"regular_fur": { "grp": "*" },
+		"spotted_fur": { "grp": "bovine" } },
+	"fur_color": {
+		"brown_fur_color": { "mods": {}, "grp": "felidae" },
+		"black_white_fur_color": { "mods": {}, "grp": "bovine" } },
+	"tail": {
+		"furry_tail": { "grp": "felidae" },
+		"bovine_tail": { "grp": "bovine" },
+		"no_tail": { "grp": "*" } },
+	"face_type": {
+		"muzzle": { "grp": "felidae,bovine" },
+		"snout": { "grp": "bovine", "typeReq": "snout_color" },
+		"human_face": { "grp": "human" } },
+	"snout_color": {
+		"black_snout_color": { "grp": "bovine" } },
+	"facial_features": {
+		"round_facial_features": { "grp": "human" },
+		"angular_facial_features": { "grp": "human" },
+		"soft_facial_features": { "mods": { "female": "+0.1" }, "grp": "human" } },
+	"lips_thickness": {
+		"regular_lips": { "grp": "*" },
+		"full_lips": { "grp": "human" } },
+	"stance": {
+		"bipedal": { "grp": "human" },
+		"quadrupedal": { "grp": "felidae" } },
+	"libido": {
+		"high_libido": { "mods": { "libido": "+0.8" }, "grp": "mutant" },
+		"low_libido": { "mods": { "libido": "+0.1" }, "grp": "*" } }
+}

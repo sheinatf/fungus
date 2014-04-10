@@ -1,0 +1,72 @@
+{{She}} is a {{breast_size_adj}} {{appearance}}. {{She}} has {{a frame_sup}}{{#if modifiers.curvaceous_body}}, yet {{body_curves}}{{/if}} frame 
+{{#if modifiers.fur}}
+	mostly covered in {{fur_color}} fur.
+{{else}}
+.
+{{/if}}
+{{#mention face_type}}
+	{{Her}} {{facial_features}} and {{femininity}} face 
+	has hints of {{getSpecie "face_type"}} features, with {{her}} {{facial_traits_adj}} 
+	{{#if modifiers.snout}}
+		{{snout_color}}
+	{{/if}} {{face_type}} and
+{{else}}
+	{{She}} has {{a facial_features}} and {{femininity}} {{face_type}}, {{her}}
+{{/mention}}
+{{lips_thickness}} lips {{mouth_mood}}. {{Her}} eyes are {{eye_color_shade}}
+{{#if modifiers.no_hair}}
+.
+{{else}}
+		and {{her}}
+	{{#ifis modifiers.hair_length ">=" "0.5"}}
+		hair cascades in {{a hair_flow_adj}} flow of {{hair_color}}.
+	{{else}}
+		{{hair_type}} {{hair_color}} hair is cut short.
+	{{/ifis}}
+{{/if}} 
+{{#ifis modifiers.breast_size ">=" "0.1"}}
+	{{She}} sports two {{breast_size_sup}} {{breast_cup}}
+	{{#if modifiers.furless_breasts}}
+		{{skin_color}}
+	{{/if}}
+	breasts
+	{{#ifis modifiers.teatlike ">=" "0.8"}}
+		whose {{nipples_length}} and {{nipples_thickness}} nipples could qualify as teats.
+	{{else}}
+		{{#mention nipples_length}}
+			with {{nipples_length}} {{#mention nipples_thickness}}and {{nipples_thickness}}{{/mention}} nipples
+		{{else}}
+			{{#mention nipples_thickness}} with {{nipples_thickness}} nipples{{/mention}}
+		{{/mention}}.
+	{{/ifis}}
+{{/ifis}}
+{{#if udder}}
+	Under those {{breast_firmness}} mounds, starting from the bottom of {{her}} {{belly_fat}} belly, hangs a wobbling udder made of soft, veiny {{skin_color}} flesh. 
+	{{#if modifiers.male_sex}}
+		{{Her}} udder seems to be somehow supported, resting on {{a cock_size_sup}} {{hardness}} male organ.
+	{{/if}}
+{{else}}
+	{{#if modifiers.male_sex}}
+		{{She}} has {{#if cock_size_sup}}{{a cock_size_sup}} {{hardness}}{{else}} {{a hardness}}{{/if}} male organ.
+	{{/if}}
+{{/if}}
+{{#ifis modifiers.libido ">=" "0.8"}}{{#if modifiers.male_sex}}
+	{{Her}} {{front_limb_end_build}} {{front_limb_end_type}} often absent-mindedly come stroking {{her}} throbbing shaft.
+{{/if}}{{/ifis}}
+
+{{#ifis modifiers.female ">=" "0.6"}}{{#if modifiers.male_sex}}
+	This virile appendage 
+	{{#unless modifiers.human_cock_shape}}
+		{{cock_shape_compl}} and
+	{{/unless}}
+	contrasts loudly with her very feminine {{#ifis modifiers.species.human "<" "0.5"}}, although animalistic {{/ifis}} appearance.
+	{{#unless modifiers.no_sheath}}
+		It takes root in a {{sheath}} and a {{testes_type}} {{testes_size}}.
+	{{/unless}}
+{{/if}}{{/ifis}}
+{{#mention tail}}
+	A {{tail}}, rests between the {{butt_size_adj}} butt cheeks of her {{butt_type}}, sometimes wagging from side to side.
+{{/mention}} 
+{{#mention hind_limb_end_type}}
+	Her {{hind_limb_appearance}} legs ends in {{hind_limb_end_type}}{{#if hind_limb_end_type_add}}, {{hind_limb_end_type_add}}{{/if}}.
+{{/mention}}

@@ -1,0 +1,87 @@
+<creature>
+	<head>
+		<hair>
+			<hair_color></hair_color>
+			<hair_type></hair_type>
+		</hair>
+		<skin>
+			<skin_color></skin_color>
+			<skin_type></skin_type>
+		</skin>
+		<eyes>
+			<eye_color></eye_color>
+		</eyes>
+		<facial_features>
+		</facial_features>
+	</head>
+	<body>
+		<front_limb>
+			<front_limb_end></front_limb_end>
+		</front_limb>
+		<hind_limb>
+			<hind_limb_end></hind_limb_end>
+		</hind_limb>
+	</body>
+</creature>
+
+<!-- {
+	'creature' :
+	{
+		'head' :
+		{
+			'hair' :
+			[
+				'hair_color',
+				'hair_type'
+			]
+			'eyes' :
+			[
+				'eye_color'
+			]
+			'facial_features'
+		}
+	}
+} -->
+
+<!-- [
+
+	{ "name" : "hair", "type" : "meta" },
+	{ "name" : "hair_color", "dep" : "hair" },
+	{ "name" : "hair_type", "dep" : "hair" },
+	{ "name" : "skin_color", "dep" : "skin" },
+	{ "name" : "skin_type", "dep" : "skin" },
+	{ "name" : "tail", "dep" : "body" },
+	{ "name" : "front_limb_end", "dep" : "front_limb" },
+	{ "name" : "hind_limb_end", "dep" : "hind_limb" },
+	{ "name" : "facial_features", "dep" : "head" },
+	{ "name" : "stance", "dep" : "body" }
+
+
+	{ "name" : "creature", "parts" :
+	[
+		{ "name" : "body", "parts" :
+		[
+			{ "name" : "front_limb" }
+			{ "name" : "tail" }
+			{ "name" : "tail" }
+			{ "name" : "tail" }
+		]},
+		{ "name" : "head", "parts" :
+		[
+			{ "name" : "hair", "parts" :
+			[
+				{ "name" : "hair_color"},
+				{ "name" : "hair_type"}
+			]},
+			{ "name" : "skin", "parts" :
+			[
+				{ "name" : "skin_color"},
+				{ "name" : "skin_type"},
+			]},
+			{ "name" : "eye", "parts" :
+			[
+				{ "name" : "eye_color"}
+			]}
+		]}
+	]}
+] -->

@@ -1,0 +1,14 @@
+{
+	"*" :
+	{
+		"animals" :
+		{
+			"mammals" :
+			[
+				"felidae",
+				"human",
+				"bovine"
+			]
+		}
+	}
+}

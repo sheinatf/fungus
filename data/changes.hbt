@@ -1,0 +1,68 @@
+{{#if nothingChanges}} Nothing changes !{{/if}}
+{{#ifis modifiers1.libido ">" modifiers2.libido}}
+	{{Her1}} sex drive decreases !
+{{else}}{{#ifis modifiers1.libido "<" modifiers2.libido}}
+	{{Her1}} sex drive increases !
+{{/ifis}}{{/ifis}}
+{{#ifis modifiers1.breast_size ">" modifiers2.breast_size}}
+	{{#if modifiers1.no_breasts}}
+		
+	{{else}}
+		{{Her1}} breasts size is decreasing, leaving {{her1}} with {{breast_size_sup2}} {{breast_cup2}} breasts.
+	{{/if}}	
+{{/ifis}}
+{{#ifis modifiers1.breast_size "<" modifiers2.breast_size}}
+	{{Her1}} breasts are getting bigger, giving {{her1}} {{a breast_size_sup2}} chest.
+{{/ifis}}
+{{#if skin_color2}}
+	{{Her1}} skin {{chgSknBrght}} and becomes {{skin_color2}}.
+{{/if}}
+{{#if skin_type2}}
+	{{#if modifiers1.skin}}She grows {{skin_type2}}{{else}}{{Her1}} {{s skin_type1 "become"}} {{skin_type2}}{{/if}}.
+{{/if}}
+{{#if eye_color2}}
+	{{Her1}} once {{eye_color1}} eyes turn {{eye_color2}}.
+{{/if}}
+{{#if hair_type2}}
+	{{Her1}} {{hair_type1}} hair becomes {{hair_type2}}.
+{{/if}}
+{{#if hair_color2}}
+{{Her1}} {{hair_color1}} hair turns {{hair_color2}}.
+{{/if}}
+{{#if tail2}}
+	{{#unless modifiers1.no_tail}}
+		{{Her1}} {{tail1}} turns into a {{tail2}}.
+	{{else}}
+		{{She1}} sprouts a {{tail2}}.
+	{{/unless}}
+{{/if}}
+{{#if sex2}}
+	{{#if modifiers2.male_sex}}
+		{{She1}} grows {{a hardness}} {{cock_size_sup}} {{sex2}}.
+		{{#ifis modifiers2.testes_size ">" modifiers1.testes_size}}
+			{{#ifis modifiers1.testes_size "==" "0" }}
+			{{/ifis}}
+		{{/ifis}}
+	{{else}}
+		{{Her1}} {{sex1}} shrinks back into a {{sex2}}.
+	{{/if}}
+{{/if}}
+<br/>
+{{#ifis modifiers1.cock_size "<" modifiers2.cock_size}}
+	{{Her1}} male organ grows.
+{{else}}{{#ifis modifiers1.cock_size ">" modifiers2.cock_size}}
+	{{Her1}} male organ shrinks.
+{{/ifis}}{{/ifis}}
+{{#ifand modifiers1.no_sheath "&&" sheath2}}
+The base of {{her1}} {{#if modifiers1.female_sex}}newly-formed{{/if}} cock wrinkles, the flesh reshaping into a {{sheath2}}.
+{{/ifand}}
+{{#if hind_limb_end_type2}}
+{{Her1}} {{hind_limb_end_type1}} reshapes into {{hind_limb_end_type2}}.
+{{/if}}
+<br/>
+{{#if appearance2}}
+{{She1}} is now a {{appearance2}}.
+{{/if}}
+{{#if she2}}
+	Regarding how {{femininity2}} {{she1}} is, {{she1}} can now be considered a {{she2}}.
+{{/if}}
